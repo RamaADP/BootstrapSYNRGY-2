@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#173573;
+}
+
+.mt-6{
+    margin-top: 100px;
+}
+
+.text-title{
+    color:#173573;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.text-content{
+    font-size: 20px;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 8px 110px;
+    
+}
+
+.navbar_list_1 {
+    margin-left: 25px;
+}
+
+.navbar .btn {
+    background-color: #173573;
+    margin-left: 10px;
+}
+
+.masuk {
+    margin-left: 10px;
+}
+
+.gambar{
+    width: 500px
+}
+
+.content2 img {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content2_container_img {
+    margin: 40px 0px;
+}
+
+.content3_text1 {
+    padding-right: 25px;
+}
+
+.content3 img{
+   width: 500px; 
+   height: auto;
+}
+
+.content4 .col {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content4_col_content {
+    border: solid 2px white;
+    /* border-style: solid;  */
+    border-radius: 5px; 
+    /* border-color: white;  */
+    width: 380px; 
+    height: auto;
+}
+
+.content4_col_content .d-flex {
+    padding: 16px;
+}
+
+.content4 h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin:0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .navbar_list_1, .navbar_list_2{
+        margin-left: 10px;
+    }
+    
+
+    .content1 .row{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-title{
+        font-size: 30px;
+    }
+
+    .gambar{
+        width: 100%;
+        height: auto;
+    }
+    
+    .content2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .content3 img{
+        width: 70%;
+        height: auto;
+    }
+
+    .content3 .row1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content3_text1 {
+        padding-right: 12px;
+    }
+    
+
+    .content3 p {
+        font-size: 16px;
+    }
+
+    .content4_col_content {
+        border-style: solid; 
+        border-radius: 5px; 
+        border-color: white; 
+        width: 100%; 
+        height: auto;
+        padding: 0px;
+    }
+
+    .content4 p{
+        font-size: 16px;
+        font-weight:500;
+    }
+
+    .content4_col_content .d-flex {
+        padding: 0px;
+        padding-top: 10px;
+    }
+}
