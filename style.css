@@ -25,20 +25,43 @@ h1, h2, h3, h4, h5, h6{
 .navbar{
     margin: 0px;
     padding: 8px 110px;
+    height: 90px;
     
 }
 
 .navbar_list_1 {
     margin-left: 25px;
+    display: inline-block;
 }
 
 .navbar .btn {
     background-color: #173573;
     margin-left: 10px;
+    color: white;
+}
+
+
+.navbar .btn:hover {
+    color: #173573;
+}
+
+.container_button {
+    width: 210px; 
+    height: 45px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button img {
+    margin-right: 15px;
 }
 
 .masuk {
     margin-left: 10px;
+}
+
+.content1{
+    padding-left: 220px;
 }
 
 .gambar{
@@ -66,20 +89,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .content4 .col {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .content4_col_content {
     border: solid 2px white;
-    /* border-style: solid;  */
     border-radius: 5px; 
-    /* border-color: white;  */
-    width: 380px; 
-    height: auto;
-}
-
-.content4_col_content .d-flex {
+    width: 360px; 
+    height: 150px;
     padding: 16px;
 }
 
@@ -92,6 +110,7 @@ footer p{
     margin:0px;
 }
 
+
 @media only screen and (max-width: 768px) {
     .navbar{
         margin: 0px;
@@ -101,13 +120,32 @@ footer p{
     .navbar_list_1, .navbar_list_2{
         margin-left: 10px;
     }
-    
+
+    .navbar .btn{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .content1{
+        padding-left: 0px;
+    }
 
     .content1 .row{
         display: flex;
         justify-content: center;
         text-align: center;
+        padding: 0px 50px;
     }
+
+    .content1 p {
+        font-size: 15px;
+    }
+
+    .content1 img{
+        width: 200px;
+        height: 200px;
+    }
+    
 
     .text-title{
         font-size: 30px;
@@ -136,12 +174,15 @@ footer p{
     }
 
     .content3_text1 {
-        padding-right: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
     
 
     .content3 p {
         font-size: 16px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
 
     .content4_col_content {
@@ -151,6 +192,8 @@ footer p{
         width: 100%; 
         height: auto;
         padding: 0px;
+        display: flex;
+        padding-top: 10px;
     }
 
     .content4 p{
@@ -158,8 +201,20 @@ footer p{
         font-weight:500;
     }
 
-    .content4_col_content .d-flex {
-        padding: 0px;
-        padding-top: 10px;
+    .content4 h1{
+        font-size: 32px;
     }
+
+    .container_button {
+        width: 50px; 
+        height: 45px; 
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button img {
+        margin-right: 0px;
+    }
+    
+    
 }
